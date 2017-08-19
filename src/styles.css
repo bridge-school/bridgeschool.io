@@ -105,3 +105,17 @@
 .libre-baskerville {
   font-family: 'Libre Baskerville', serif;
 }
+
+
+/* Tachyons augments */
+.lh-2 {
+  line-height: 2;
+}
+
+@media only screen
+and (max-device-width: 620px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .cover-header {
+    background-image: none!important;
+  }
+}
