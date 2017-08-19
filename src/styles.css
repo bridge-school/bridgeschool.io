@@ -106,24 +106,16 @@
   font-family: 'Libre Baskerville', serif;
 }
 
-.test-section {
-  min-height: 100vh;
-  color: white;
-  padding: 10vh 25vw;
+
+/* Tachyons augments */
+.lh-2 {
+  line-height: 2;
 }
 
 @media only screen
-and (max-device-width: 520px)
+and (max-device-width: 620px)
 and (-webkit-min-device-pixel-ratio: 2) {
-  .test-section {
-    padding: 5vh 5vw;
-  }
-
   .cover-header {
     background-image: none!important;
   }
-}
-
-.test-section:nth-child(odd) {
-  background-color: #6b2988;
 }
