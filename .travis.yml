@@ -1,0 +1,10 @@
+deploy:
+  provider: s3
+  access_key_id: AKIAI33YWQUHEJOGUZOQ
+  secret_access_key:
+    secure: ELmvRTCP/vSkoyXUbSVzLdinDaJRPKp/ULqh6KxKzPJ+X5o56wBuUdlSKHINabUWDsAO4UvINeLNT7q47St7766sOPOFbGWgrHd4sKfwBuCkCTGvTr4OTfz2hqVlOlRZiU1+lcaSN7YCXqPRA4bbA3KTjpgy4MF8T9GSAp6OvQz0OwXELu7gPdgQcc1lRsB3HRqkS865N25q51SYCqYuQ2J7YAGdq6HM1Aa+prx8HYrOOrjM8XtXCVGbI0kCbqDQrvHeLW8c7rYpvz7HtbQve9o7za4SmwkDYrnmEamM2+vc0Gy39MUx15PfJAcCsiQRM7N1xFvsjZ+sUQcFv9jgmZNzwGPPR98of6YXQBZOqrnEXc3qE6L43dst7em8qLig0U0BGyIEGYtotQge0CnsH59UjRVRPTUMABv1E4DBuNFy8qYBeTzLj20f7sa7BfVzsQPGGNqfAoI4ArQILOT3cZ+vv4pHp7RIiFdNz1+6RCS8GpMGUNLVic29Dzk5PfnF8vxkmotT25oGL2BudHX9YAwjTxD0QLqbz6LleCiL137u16Zwm7AUa4SEMHTjzpir+SZTaQ0F5Z6lhJ5RRlIkv8u5MiADi91q4/oomZgu6whVpVz+P5pL8kf9QE08uJEo9KQw3PzlqBqyZENQURbxoNV75k+56eOLk+HMgziqQxY=
+  bucket: bridgeschool.io
+  local-dir: src
+  acl: public-read
+  on:
+    repo: purvi-test-org/bridgeschool.io
