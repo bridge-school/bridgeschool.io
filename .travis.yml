@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 install: true
 script: echo 'skip tests'
+=======
+>>>>>>> add travis.yml
 deploy:
   provider: s3
   access_key_id: AKIAI33YWQUHEJOGUZOQ
