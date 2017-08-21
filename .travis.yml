@@ -8,5 +8,6 @@ deploy:
   bucket: bridgeschool.io
   local-dir: src
   acl: public-read
+  region: us-east-2
   on:
     repo: purvi-test-org/bridgeschool.io
