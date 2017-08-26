@@ -1,21 +1,18 @@
 <svg width="1205" height="863" viewBox="0 0 1205 863" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>
-    Bridge Logo Final
+    BridgeLogo
   </title>
-  <desc>
-    Created using Figma
-  </desc>
-  <use xlink:href="#a" transform="translate(0 485.01)" fill="#000C9E"/>
-  <use xlink:href="#b" transform="translate(246.1 572.65)" fill="#000C9E"/>
-  <use xlink:href="#c" transform="translate(412.5 486)" fill="#000C9E"/>
-  <use xlink:href="#d" transform="translate(522.1 486)" fill="#000C9E"/>
-  <use xlink:href="#e" transform="translate(768.2 573.64)" fill="#000C9E"/>
-  <use xlink:href="#f" transform="translate(1013.3 573.64)" fill="#000C9E"/>
+  <use xlink:href="#a" transform="translate(0 485.006)" fill="#000C9E"/>
+  <use xlink:href="#b" transform="translate(246.1 572.646)" fill="#000C9E"/>
+  <use xlink:href="#c" transform="translate(412.5 486.002)" fill="#000C9E"/>
+  <use xlink:href="#d" transform="translate(522.1 486.002)" fill="#000C9E"/>
+  <use xlink:href="#e" transform="translate(768.2 573.642)" fill="#000C9E"/>
+  <use xlink:href="#f" transform="translate(1013.3 573.642)" fill="#000C9E"/>
   <g>
-    <use xlink:href="#g" transform="translate(198.3 1)" fill="#65B8DE"/>
-    <use xlink:href="#h" transform="translate(859.9)" fill="#000C9E"/>
-    <use xlink:href="#i" transform="translate(382.6)" fill="#EB2C88"/>
-    <use xlink:href="#j" transform="translate(381.6 106.56)" fill="#08C39D"/>
+    <use xlink:href="#g" transform="translate(198.3 .996)" fill="#2FA1D4"/>
+    <use xlink:href="#h" transform="translate(859.9)" fill="#4E57CA"/>
+    <use xlink:href="#i" transform="translate(382.6)" fill="#EB2C97"/>
+    <use xlink:href="#j" transform="translate(381.6 106.562)" fill="#08C39D"/>
   </g>
   <defs>
     <path id="a" d="M57.792 297.776H0V0h57.792v110.546c8.967-10.955 29.892-21.91 50.816-21.91 59.785 0 92.666 48.8 92.666 107.557 0 58.76-33.878 106.562-92.666 106.562-21.92 0-42.845-10.955-50.816-21.91v16.93zm0-68.718C64.766 243 79.712 252.96 95.655 252.96c30.89 0 48.824-24.898 48.824-57.763 0-32.864-17.936-57.762-48.825-57.762-15.942 0-31.885 9.96-37.863 23.902v67.72z"/>
