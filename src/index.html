@@ -20,14 +20,29 @@
 
     <!-- Universal Google Analytics -->
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function(i, s, o, g, r, a, m) {
+  i["GoogleAnalyticsObject"] = r;
+  (i[r] =
+    i[r] ||
+    function() {
+      (i[r].q = i[r].q || []).push(arguments);
+    }),
+    (i[r].l = 1 * new Date());
+  (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+  a.async = 1;
+  a.src = g;
+  m.parentNode.insertBefore(a, m);
+})(
+  window,
+  document,
+  "script",
+  "https://www.google-analytics.com/analytics.js",
+  "ga"
+);
 
-      ga('create', 'UA-104946785-1', 'auto');
-      ga('send', 'pageview');
-    </script>
+ga("create", "UA-104946785-1", "auto");
+ga("send", "pageview");
+</script>
     <!-- End Universal Google Analytics -->
   </head>
 
@@ -47,7 +62,7 @@
           </div>
           <div class="dtc v-mid tr pa3">
             <a class="f6 fw4 blue hover-pink no-underline dib pv2 ph3" href="/about-us">About Us</a>
-            <a class="f6 fw4 blue hover-pink no-underline ml2 pv2 ph3 ba bw1" href="/apply" >Apply</a>
+            <a class="dn f6 fw4 blue hover-pink no-underline ml2 pv2 ph3 ba bw1" href="/apply" >Apply</a>
           </div>
         </nav>
       </div>
@@ -59,8 +74,8 @@
         </div>
         <h2 class="f3 fw7 mt3 mb5 purple">A Framework for Change</h2>
         <div class="flex flex-column">
-          <a id="partner-cta-top" class="f4 no-underline grow dib v-mid bg-white pink ph4 pv3 mb3 ba bw1" href="/apply">Apply Now</a>
-          <a id="partner-cta-top" class="f4 no-underline grow dib v-mid bg-white light-blue ph4 pv3 mb3 ba bw1" href="mailto:hello@bridgeschool.io">Partner With Us</a>
+          <a id="partner-cta-top" class="f4 no-underline grow dn v-mid bg-white pink ph4 pv3 mb3 ba bw1" href="/apply">Apply Now</a>
+          <a id="partner-cta-top" class="f4 no-underline grow dib v-mid bg-white pink ph4 pv3 mb3 ba bw1" href="mailto:hello@bridgeschool.io">Partner With Us</a>
         </div>
       </div>
   </header>
