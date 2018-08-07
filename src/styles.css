@@ -123,13 +123,16 @@
 
 /* Fonts */
 .open-sans {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .libre-baskerville {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
 }
 
 /* Addition to Widths Scales */
+.w-logo {
+  width: 14rem;
+}
 .w6 {
   width: 32rem;
 }
@@ -170,6 +173,9 @@
   .tj-ns {
     text-align: justify;
   }
+  .w-logo-ns {
+    width: 14rem;
+  }
 }
 
 /* m enhancers */
@@ -189,6 +195,9 @@
   .tj-m {
     text-align: justify;
   }
+  .w-logo-m {
+    width: 14rem;
+  }
 }
 
 /* l enhancers */
@@ -207,6 +216,9 @@
   }
   .tj-l {
     text-align: justify;
+  }
+  .w-logo-l {
+    width: 14rem;
   }
 }
 
