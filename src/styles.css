@@ -155,6 +155,10 @@
 .tj {
   text-align: justify;
 }
+/* Override for visability */
+.link:visited {
+  color: #08c39d;
+}
 
 /* ns enhancers */
 @media screen and (min-width: 30em) {
