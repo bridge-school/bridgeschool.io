@@ -181,9 +181,9 @@ ga("send", "pageview");
     <section id="donate" class="pv3 dn">
       <div class="flex flex-column items-center">
         <label class="w-50 items-center flex ma2">
-          <input class="w-100 pa3 bw1 ba b--green ph4" min="10" id="donate-amount" class="w-50" type="number" />
+          <input class="w-100 pa3 bw1 ba b--green ph4 outline-0" min="10" id="donate-amount" class="w-50" type="number" />
         </label>
-        <button id="donate-button" class="pointer:hover w-50 f4-ns f5 no-underline grow v-mid bg-white green ph4 pv3 ba bw1 b--green">Donate!</button>
+        <button id="donate-button" class="pointer:hover outline-0 w-50 f4-ns f5 no-underline grow v-mid bg-white green ph4 pv3 ba bw1 b--green">Donate!</button>
         <h2 id="donate-success" class="blue dn">🎉 Thank you for donating 🎉</h2>
         <h2 id="donate-error" class="blue dn">(╯°□°)╯︵ ┻━┻ Oops looks like something went wrong. Contact us at <a href="mailto:hello@bridgeschoo.io">hello@bridgeschoo.io</a></h2>
       </div>
@@ -230,7 +230,7 @@ ga("send", "pageview");
 
     var handler = StripeCheckout.configure({
       key: config.stripePublicKey,
-      image: 'https://stripe.com/img/documentation/checkout/marketplace.png',
+      image: './assets/bridge-logo-square.png',
       locale: 'auto',
       token: function(token) {
         // You can access the token ID with `token.id`.
@@ -263,7 +263,6 @@ ga("send", "pageview");
       // Open Checkout with further options:
       handler.open({
         name: 'Bridge School',
-        description: '2 widgets',
         currency: 'CAD',
         amount: getAmount()
       });
