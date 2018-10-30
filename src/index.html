@@ -64,7 +64,7 @@ ga("send", "pageview");
             <a class="f6 fw4 blue hover-pink no-underline dib pv2 ph3 mb2 mb0-ns" href="/about-us">About Us</a>
             <a class="f6 fw4 blue hover-pink no-underline ml2 pv2 ph3 ba bw1 mb2 mb0-ns" href="/apply-dev" >Apply for Development</a>
             <a class="f6 fw4 blue hover-pink no-underline ml2 pv2 ph3 ba bw1 mb2 mb0-ns" href="/apply-design" >Apply for Design</a>
-            <a class="f6 fw4 green hover-pink no-underline ml2 pv2 ph3 ba bw1 mb2 mb0-ns dn" href="#donate" >Donate</a>
+            <a class="f6 fw4 green hover-pink no-underline ml2 pv2 ph3 ba bw1 mb2 mb0-ns" href="#donate" >Donate</a>
           </div>
         </nav>
       </div>
@@ -178,12 +178,18 @@ ga("send", "pageview");
       <p class="tj">Our industry has had a diversity problem for decades. We can’t fix it overnight, but if we work together, we’ve proven that we can make meaningful, impactful change in only 11 weeks. If you’d like to be a part of the future of diversity and inclusion in our industry, contact us today for next steps.</p>
       <a id="partner-cta-bottom" class="f4 open-sans no-underline grow dib v-mid green ph4 pv2 mt4 ba bw1" href="mailto:hello@bridgeschool.io">Become a Sponsor</a>
     </div>
-    <section id="donate" class="pv3 dn">
-      <div class="flex flex-column items-center">
-        <label class="w-50 items-center flex ma2">
-          <input class="w-100 pa3 bw1 ba b--green ph4 outline-0" min="10" id="donate-amount" class="w-50" type="number" />
+    <section id="donate" class="libre-baskerville f5 center lh-2 bt b--black-10 pv6 ph4 ph5-m ph7-l items-center flex flex-column justify-center">
+      <h3 class="p3 open-sans lh-title f2 mt0 mb2 tc">Donate</h3>
+      <div class="tc center bg-green w3 pt1 mt3 mb3"></div>
+      <div class="flex flex-column w-100 items-start">
+        <p class="tc">It's easy to donate to Bridge in one simple step. Use the donation form below, and contribute to keeping our free cohorts and other programs running</p>
+        <label class="ma2 fw7" for="donate-amount">
+          Enter amount:
         </label>
-        <button id="donate-button" class="pointer:hover outline-0 w-50 f4-ns f5 no-underline grow v-mid bg-white green ph4 pv3 ba bw1 b--green">Donate!</button>
+        <div class="flex flex-column flex-row-ns w-100">
+          <input class="pa3 shadow-4 bw0 outline-0 mr3 w-60-ns" name="donate-amount" min="10" id="donate-amount" class="w-50" type="number" placeholder="$CAD" />
+          <button id="donate-button" class="pointer:hover outline-0 f4-ns f5 no-underline grow v-mid bg-white green ph4 pv3 ba bw1 b--green">Donate!</button>
+        </div>
         <h2 id="donate-success" class="blue dn">🎉 Thank you for donating 🎉</h2>
         <h2 id="donate-error" class="blue dn">(╯°□°)╯︵ ┻━┻ Oops looks like something went wrong. Contact us at <a href="mailto:hello@bridgeschoo.io">hello@bridgeschoo.io</a></h2>
       </div>
@@ -273,12 +279,6 @@ ga("send", "pageview");
     window.addEventListener('popstate', function() {
       handler.close();
     });
-
-    // use console to show donate section - just for testing!
-    window.showDonateSection = function() {
-      const donateSection = document.getElementById('donate')
-      donateSection.classList.remove('dn')
-    }
   </script>
   </body>
 </html>
